@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\dev\Redirector\Redirector" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Redirector" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="RedirectController.cs" t="Include" />
+        </e>
+        <e p="FactoryManager.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Redirection.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Redirector.AssemblyInfo.cs" t="Include" />
+              <e p="Redirector.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Redirector.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+      <e p="Redirector.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\Ian\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Ian\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Redirector.-1647345441.00" t="ExcludeRecursive" />
+  </component>
+</project>
