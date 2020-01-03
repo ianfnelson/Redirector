@@ -19,5 +19,7 @@ namespace Redirector.Models
         public virtual bool IsPermanent { get; set; }
         
         public virtual bool Checked { get; set; }
+        
+        public virtual bool Return404 { get; set; }
     }
 }

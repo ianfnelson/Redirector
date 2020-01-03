@@ -21,6 +21,11 @@ namespace Redirector.Controllers
             path = StandardisePath(path);
 
             var redirection = GetRedirection(path);
+
+            if (redirection.Return404)
+            {
+                return new NotFoundResult();
+            }
             
             return new RedirectResult(redirection.RedirectUrl, redirection.IsPermanent);
         }
